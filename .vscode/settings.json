@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/6f4daae3-a0be-4946-a595-96ff10daf936/resourceGroups/vnmeInvoiceStag/subscriptions/6f4daae3-a0be-4946-a595-96ff10daf936/resourceGroups/vnmeInvoiceStag/providers/Microsoft.Web/sites/VNMeInvoiceStage-BE",
+    "appService.deploySubpath": "."
+}

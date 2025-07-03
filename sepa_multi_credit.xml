@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Document xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03">
+  <CstmrCdtTrfInitn>
+    <GrpHdr>
+      <MsgId>78c26d3a19df4297959c2c94d311a836</MsgId>
+      <CreDtTm>2025-06-04T09:50:55.835Z</CreDtTm>
+      <NbOfTxs>1</NbOfTxs>
+      <CtrlSum>100</CtrlSum>
+      <InitgPty>
+        <Nm>PRUDENTIAL</Nm>
+      </InitgPty>
+    </GrpHdr>
+    <PmtInf>
+      <PmtInfId> </PmtInfId>
+      <PmtMtd>TRF</PmtMtd>
+      <BtchBookg>false</BtchBookg>
+      <NbOfTxs>1</NbOfTxs>
+      <CtrlSum>100</CtrlSum>
+      <PmtTpInf>
+        <SvcLvl>
+          <Cd>URGP</Cd>
+        </SvcLvl>
+      </PmtTpInf>
+      <ReqdExctnDt>2025-05-28</ReqdExctnDt>
+      <Dbtr>
+        <Nm>PRUDENTIAL</Nm>
+        <PstlAdr>
+          <Ctry>VN</Ctry>  ;
+        </PstlAdr>
+      </Dbtr>
+      <DbtrAcct>
+        <Id>
+          <Othr>
+            <Id>96310001</Id>
+          </Othr>
+        </Id>
+      </DbtrAcct>
+      <DbtrAgt>
+        <FinInstnId>
+          <BIC>VTCBVNVX</BIC>
+        </FinInstnId>
+      </DbtrAgt>
+      <ChrgBr>SLEV</ChrgBr>
+      <CdtTrfTxInf>
+        <PmtId>
+          <InstrId>220344</InstrId>
+          <EndToEndId>TRANS1</EndToEndId>
+        </PmtId>
+        <Amt>
+          <InstdAmt Ccy="EUR">1500</InstdAmt>
+        </Amt>
+        <CdtrAgt>
+          <FinInstnId>
+            <BIC>DUMMYCODXXX</BIC>
+            <Nm>NGAN HANG MUFG BANK LTD CN TP HCM</Nm>
+          </FinInstnId>
+        </CdtrAgt>
+        <Cdtr>
+          <Nm>Alice Buyer</Nm>
+          <PstlAdr>
+            <Ctry>VM</Ctry>
+          </PstlAdr>
+        </Cdtr>
+        <CdtrAcct>
+          <Id>
+            <Othr>
+              <Id>1234567890</Id>
+            </Othr>
+          </Id>
+        </CdtrAcct>
+        <RltdRmtInf>
+          <RmtLctnMtd>EMAL</RmtLctnMtd>
+          <RmtLctnElctrncAdr>vntest47@appvity.com</RmtLctnElctrncAdr>
+        </RltdRmtInf>
+        <RmtInf>
+          <Ustrd>Invoice 001</Ustrd>
+        </RmtInf>
+      </CdtTrfTxInf>
+      <CdtTrfTxInf>
+        <PmtId>
+          <InstrId>220344</InstrId>
+          <EndToEndId>TRANS2</EndToEndId>
+        </PmtId>
+        <Amt>
+          <InstdAmt Ccy="EUR">250</InstdAmt>
+        </Amt>
+        <CdtrAgt>
+          <FinInstnId>
+            <BIC>DUMMYCODXXX</BIC>
+            <Nm>NGAN HANG MUFG BANK LTD CN TP HCM</Nm>
+          </FinInstnId>
+        </CdtrAgt>
+        <Cdtr>
+          <Nm>Bob Services</Nm>
+          <PstlAdr>
+            <Ctry>VM</Ctry>
+          </PstlAdr>
+        </Cdtr>
+        <CdtrAcct>
+          <Id>
+            <Othr>
+              <Id>1234567890</Id>
+            </Othr>
+          </Id>
+        </CdtrAcct>
+        <RltdRmtInf>
+          <RmtLctnMtd>EMAL</RmtLctnMtd>
+          <RmtLctnElctrncAdr>vntest47@appvity.com</RmtLctnElctrncAdr>
+        </RltdRmtInf>
+        <RmtInf>
+          <Ustrd>Invoice 002</Ustrd>
+        </RmtInf>
+      </CdtTrfTxInf>
+    </PmtInf>
+  </CstmrCdtTrfInitn>
+</Document>

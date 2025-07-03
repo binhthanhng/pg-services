@@ -1,0 +1,28 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "http://schemas.appvity.com/Transaction-Validate.schema.json",
+    "title": "Transaction-Validate",
+    "description": "",
+    "type": "object",
+    "properties": {
+        "BeneName": {
+            "type": "string",
+            "pattern": "[A-Za-z0-9-()\\s]"
+        },
+        "BeneBankName": {
+            "type": "string",
+            "pattern": "[A-Za-z0-9-/)('.+:?\\s]"
+        },
+        "BeneAccount": {
+            "type": "string",
+            "pattern": "[A-Za-z0-9]"
+        },
+        "Description": {
+            "type": "string",
+            "pattern": "[A-Za-z0-9-/\\s]",
+            "minLength": 1,
+            "maxLength": 140
+        }
+    },
+    "required": []
+}
